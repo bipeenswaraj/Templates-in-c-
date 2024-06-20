@@ -25,6 +25,12 @@ class Stack {
                 return arr[top--];
             }
       }
+     void printStack(){
+         for(int i = top;i>=0;--i){
+             cout<<arr[i]<<" ";
+         }
+         cout<<endl;
+     }
 };
       int main(){
         Stack <int> intStack;
