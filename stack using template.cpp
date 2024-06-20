@@ -42,6 +42,8 @@ class Stack {
         charStack.push("swaraj");
         cout<<intStack.pop()<<endl;
         cout<<charStack.pop()<<endl;
+        cout<<"stack values:"<<inStack.printStack();
+        cout<<"stack values:"<<charStack.printStack();
         return 0;
 
       }
